@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #E2E4EB;
+}
+.container{
+    border: 2px solid red;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+.shop{
+    background-color: #fff;
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.Cell li{
+    display: inline;
+    padding-right: 5px;
+    list-style: none;
+    color: #bfc4d5;
+}
+.Cell li a{
+    color: #bfc4d5;
+    text-decoration: none;
+    font-weight: 500;
+}
+.Cell li a:hover{
+    color: #000;
+    font-weight: 700;
+}
+.top{
+    border: 2px solid;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.top h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.headphone{
+    width: 100%;
+    display: flex;
+}
+.noise{
+    background-image: url("/Fawaz/slider3.png.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    padding: 30px;
+    width: 60%;
+    margin-right: 10px;
+}
+.noise h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+}
+.noise h4{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+}
+.noise p{
+    color: #fff;
+    font-size: 10px;
+    width: 40%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.noise button{
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.noise button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.three{
+    display: flex;
+    justify-content: end;
+}
+.three button{
+    padding: 5px;
+    width: 20%;
+    letter-spacing: 10px;
+    border-radius: 20px;
+}
+.redmi{
+    background-image: url("/Fawaz/div.img.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    width: 40%;
+}
+.note h5{
+    width: 70%;
+    font-size: 30px;
+    font-weight: 400;
+}
+.note p{
+    color: #676769;
+    font-weight: 300;
+    font-size: 15px;
+}
+.note button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.note button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.Popular{
+    border: 2px solid;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.Popular h1{
+    font-size: 20px;
+}
+.tab{
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.tab p{
+    font-size: 12px;
+    color: #aaadb5;
+}
+.sell{
+    border: 2px solid;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.best{
+    /* border: 2px solid; */
+    display: flex;
+    width: 100%;
+}
+.all{
+    /* border: 2px solid; */
+    padding: 20px;
+    width: 100%;
+}
+.this{
+    border-bottom: 1px solid #bfc4d5;
+}
+.oppo{
+    width: 40%;
+    background-color: #E2E4EB;
+    border-radius: 10px;
+}
+.oppo h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.oppo button{
+    padding: 5px;
+    width: 50%;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.oppo button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.oppo h4{
+    font-size: 15px;
+}
+.oppo li{
+    list-style: none;
+}
+.oppo li a{
+    color: #000;
+    text-decoration: none;
+    line-height: 10px;
+}
+.series{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.series h4{
+    width: 60%;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.two{
+    /* border: 2px solid; */
+    width: 30%;
+}
+.series h5{
+    color: red;
+    margin-bottom: 5px;
+}
+.series h6{
+    color: #aaadb5;
+}
+.nine{
+    color: #aaadb5;
+    text-decoration: line-through;
+}
+.free button{
+    color: #1ABA1A;
+    background-color: #D8F4D8;
+    border: none;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.free button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.stock button{
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: #f4f4f4;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.stock button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.save button{
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 8px;
+    text-align: left;
+    background-color: #1ABA1A;
+    color: #fff;
+}
+.set{
+    border: 2px solid;
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+}
+.lte{
+    border: 2px solid;
+    padding: 20px;
+    width: 100%;
+}
+.vato{
+    width: 40%;
+    background-color: #E2E4EB;
+    border-radius: 10px;
+}
+.inch{
+    display: flex;
+    justify-content: space-between;
+}
+.inch h4{
+    font-weight: 400;
+}
+.code{
+    width: 100%;
+}
