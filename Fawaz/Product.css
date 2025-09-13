@@ -294,9 +294,238 @@ body{
 .inch{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 .inch h4{
     font-weight: 400;
+}
+.min{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+.min button{
+    background-color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.min button:hover{  
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+}
+.red button{
+    background-color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    padding-right: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.red button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.envato h4{
+    margin-top: 10px;
+}
+.envato button{
+    padding: 15px;
+    padding-right: 200px;
+    background-color: #fff;
+    border: 1px solid #aaadb5;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.canyan{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #aaadb5;
+}
+.show{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+.price{
+    margin-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #aaadb5;
+}
+.price h3{
+    margin-bottom: 20px;
+}
+.double-range {
+  position: relative;
+  width: 300px;
+  height: 30px;
+}
+.range-slider {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 5px;
+  border-radius: 10px;
+  -webkit-appearance: none;
+  background: #1ABA1A;
+  pointer-events: none; /* Allow only the thumbs to be interacted with */
+}
+.range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #1ABA1A;
+  border-radius: 50%;
+  /* border: 2px solid white; */
+  box-shadow: 0 0 2px rgba(0,0,0,0.3);
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.range-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #2196F3;
+  border-radius: 50%;
+  border: 2px solid white;
+  cursor: pointer;
+  pointer-events: auto;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+}
+.one button{
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    padding-right: 60px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.one button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.goo button{
+    background-color: #1ABA1A;
+    color: #fff;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.rating{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #aaadb5;
+}
+.rating h3{
+    margin-bottom: 10px;
+}
+.rate{
+    gap: 100px;
+}
+.rate p{
+    color: #676769;
+    font-size: 12px;
+}
+.size{
+    margin-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #aaadb5;
+}
+.size h3{
+    margin-bottom: 10px;
+}
+.under button{
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.under button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.color{
+    margin-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #aaadb5;
+}
+.color h3{
+    margin-bottom: 10px;
+}
+.bot button{
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+.wine{
+    background-color: #A42A2A;
+}
+.blue{
+    background-color: #2F557B;
+}
+.light{
+    background-color: #439ABB;
+}
+.black{
+    background-color: #000;
+}
+.white{
+    background-color: #fff;
+}
+.green{
+    background-color: #1ABA1A;
+}
+.grey{
+    background-color: #696969;
+}
+.pop{
+    background-color: #534898;
+}
+.memmory{
+    margin-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #aaadb5;
+}
+.memmory h3{
+    margin-bottom: 10px;
+}
+.bye{
+    display: flex;
+    gap: 90px;
+}
+.six{
+    gap: 10px;
+}
+.six p{
+    font-size: 12px;
+}
+.four{
+    color: #676769;
+    font-size: 12px;
+}
+.condition{
+    margin-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #aaadb5;
+}
+.condition h3{
+    margin-bottom: 10px;
 }
 .code{
     width: 100%;
