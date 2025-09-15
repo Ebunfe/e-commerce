@@ -9,14 +9,14 @@ body{
     background-color: #E2E4EB;
 }
 .container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     padding: 20px;
     margin: auto;
 }
 .shop{
     background-color: #fff;
-    border: 2px solid;
+    /* border: 2px solid; */
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -37,10 +37,10 @@ body{
     font-weight: 700;
 }
 .top{
-    border: 2px solid;
+    /* border: 2px solid; */
     background-color: #fff;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 20px;
 }
 .top h1{
@@ -133,8 +133,8 @@ body{
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 .Popular{
-    border: 2px solid;
-    padding: 10px;
+    /* border: 2px solid; */
+    padding: 20px;
     background-color: #fff;
     border-radius: 10px;
     display: flex;
@@ -155,7 +155,7 @@ body{
     color: #aaadb5;
 }
 .sell{
-    border: 2px solid;
+    /* border: 2px solid; */
     padding: 10px;
     background-color: #fff;
     border-radius: 10px;
@@ -276,13 +276,13 @@ body{
     color: #fff;
 }
 .set{
-    border: 2px solid;
+    /* border: 2px solid; */
     margin-top: 20px;
     display: flex;
     width: 100%;
 }
 .lte{
-    border: 2px solid;
+    /* border: 2px solid; */
     padding: 20px;
     width: 100%;
 }
@@ -529,4 +529,112 @@ body{
 }
 .code{
     width: 100%;
+    padding: 0;
 }
+.result{
+    /* border: 2px solid; */
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.showed, .veiwed{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.showed, .veiwed h6{
+    color: #696969;
+}
+.showed button{
+    background-color: #E2E4EB;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.veiwed select{
+    background-color: #E2E4EB;
+    border: none;
+    padding: 5px;
+    padding-right: 50px;
+    border-radius: 5px;
+}
+select:focus{
+    outline: 0;
+}
+.fourty h6{
+    color: #696969;
+    font-weight: 400;
+}
+.oned{
+    color: #000;
+    font-weight: 800;
+}
+.new{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.smaart h4{
+    width: 100%;
+}
+.pod{
+    /* display: flex; */
+    justify-content: center;
+    margin-left: 100px;
+    /* align-items: center; */
+}
+.pod h4{
+    width: 60%;
+    font-size: 10px;
+    text-align: left;
+}
+.huh h4{
+    width: 100%;
+    margin-right: 100px;
+}
+.apod h4{
+    width: 100%;
+}
+.noted{
+    margin-left: 50px;
+}
+.noted h4{
+    width: 70%;
+}
+.wifi h4{
+    width: 80%;
+}
+.twet{
+    margin-left: 100px;
+}
+.twet h4{
+    width: 80%;
+}
+.camera{
+    /* border: 2px solid red; */
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: -60px;
+    display: flex;
+    width: 100%;
+}
+.less{
+    width: 100%;
+    /* border: 2px solid; */
+}
+.wireess{
+    width: 50%;
+}
+.wireess img{
+    height: 50vh;
+    width: 86%;
+    margin-left: 10px;
+    margin-top: -150px;
+}
+
+     /* media */
