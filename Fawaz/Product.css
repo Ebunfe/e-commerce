@@ -637,4 +637,98 @@ select:focus{
     margin-top: -150px;
 }
 
-     /* media */
+
+/* Tablet landscape and below */
+@media (max-width: 1024px) {
+  .container { padding: 16px; }
+
+  .headphone { flex-direction: column; gap: 12px; }
+  .noise, .redmi { width: 100%; margin-right: 0; background-size: cover; }
+  .noise p { width: 60%; }
+  .three button { width: auto; letter-spacing: 6px; }
+
+  .tab { flex-wrap: wrap; gap: 10px; }
+
+  .best { flex-direction: column; }
+  .oppo, .this { width: 100%; }
+
+  .set { flex-direction: column; }
+  .vato, .code { width: 100%; }
+
+  .series { flex-wrap: wrap; gap: 12px; }
+  .series .charge { flex: 1 1 calc(50% - 12px); }
+
+  .wireess img { margin-top: -60px; width: 100%; margin-left: 0; height: auto; }
+}
+
+/* Tablet portrait and large phones */
+@media (max-width: 768px) {
+  .container { padding: 12px; }
+  .top h1 { font-size: 18px; }
+
+  .noise h3 { font-size: 24px; }
+  .noise h4 { font-size: 20px; }
+  .noise p { width: 100%; font-size: 12px; margin-left: 0; }
+  .three { justify-content: center; }
+  .three button { width: auto; letter-spacing: 4px; }
+
+  .tab { gap: 12px; }
+  .tab .android { width: 48%; text-align: center; }
+  .tab .android img { max-width: 60px; height: auto; }
+
+  .oppo button { width: 100%; justify-content: center; }
+
+  .double-range { width: 100%; }
+  .min button, .red button, .envato button { width: 100%; padding-right: 10px; text-align: left; }
+  .one { gap: 8px; }
+  .one button { padding-right: 10px; }
+
+  .rating .rate { gap: 20px; }
+
+  .result { flex-wrap: wrap; gap: 8px; align-items: flex-start; }
+  .showed, .veiwed { width: 100%; justify-content: space-between; }
+  .veiwed select, .showed button { width: 50%; }
+
+  .series { gap: 10px; }
+  .series .charge { flex: 1 1 calc(50% - 10px); }
+
+  .bye { flex-direction: column; gap: 10px; }
+
+  .camera { flex-direction: column; }
+  .wireess, .less { width: 100%; }
+  .wireess img { width: 100%; height: auto; margin: 0; }
+
+  .pod, .twet, .noted { margin-left: 0; }
+  .huh { margin-right: 0; }
+  .pod h4, .twet h4, .wifi h4, .noted h4, .huh h4 { width: 100%; }
+
+  .bot button { margin-right: 10px; }
+}
+
+/* Small phones */
+@media (max-width: 576px) {
+  .container { padding: 10px; }
+  .top h1 { font-size: 16px; }
+
+  .noise { padding: 20px; }
+  .noise h3 { font-size: 22px; }
+  .noise h4 { font-size: 18px; }
+  .three button { letter-spacing: 2px; padding: 6px 12px; border-radius: 16px; }
+
+  .tab .android { width: 100%; }
+
+  .series .charge { flex: 1 1 100%; }
+
+  .save button { width: 60%; }
+
+  .show, .showed, .veiwed { gap: 6px; }
+  .veiwed select, .showed button { width: 100%; }
+
+  .oppo h3 { font-size: 18px; }
+  .oppo h4 { font-size: 14px; }
+
+  .note h5 { font-size: 22px; }
+  .note p { font-size: 13px; }
+
+  .double-range { height: 28px; }
+}
