@@ -416,3 +416,46 @@ font-weight: 500;
     margin-top: 20px;
     background-color: white;
 }
+.container-6{
+    border: 2px solid ;
+    background-color: white;
+    margin-top: 30px;
+}
+.redmi-note{
+    background-image: url(/assets/div.img.png);
+    width: 50%;
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.top{
+    display: flex;
+    border: 2px solid;
+    /* background-color: white; */
+
+}
+.top-phone{
+    border: 2px solid purple;
+}
+.boss-set{
+border: 2px solid blue;
+display: flex;
+flex-wrap: wrap;
+width: 50%;
+gap: 30px;
+padding: 30px;
+}
+.set-pic{
+    display: flex;
+    border: 2px solid red;
+    /* font-size: 10px; */
+}
+.set-pic-2{
+    display: flex;
+    border: 2px solid green;
+    /* width: 5%; */
+    /* height: 30vh; */
+}
+.phone-txt{
+    display: flex;
+}
