@@ -200,16 +200,15 @@ body{
     width: 49.5%;
 }
 .container-3{
-    border: 2px solid;
+    /* border: 2px solid; */
     display: flex;
     background-color: white;
 }
 
 .headA{
-    width: 95%;
     display: flex;
     justify-content: space-between;
-    border: 2px solid orangered;
+    /* border: 2px solid orangered; */
     align-items: center;
     color: white;
     background-color: rgb(26, 186, 26);
@@ -250,11 +249,170 @@ body{
 }
 .cont-2{
     padding-top: 40px;
-    width: 45%;
+    /* width: 95%; */
+}
+.list{
+    line-height: 30px;
+    font-size: 13.5px;
+}
+.dors-monie{
+    text-decoration: line-through;
+    font-size: 13px;
+    line-height: 30px;
+}
+.dors-2{
+    color: red;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration-line: none;
+}
+.free{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ship{
+    color:green;
+    padding: 5px;    
+    border: none;
+}
+.gift{
+    color: red;
+    padding: 5px;
+    border: none;
+    margin-left: 20px;
 }
 .hurry{
     display: flex;
 }
+.hurry-txt{
+    text-transform:uppercase;
+/* border: 2px solid; */
+padding-right: 20px;
+font-weight: 500;
+}
+.empty{
+    margin-top: 20px;
+    border: 1px solid gray;
+    width: 96%;
+}
+.time{
+    width: 55px;
+}
+.increase{
+    /* margin-left: 10px; */
+    margin-right: 10px;
+    margin-top: 25px;
+    width: 97%;
+}
+.score{
+    font-weight: 800;
+}
 .game-pc{
-    
+    width: 30%;
+    /* border: 2px solid red; */
+    padding-left: 20px;
+    background-color: rgba(226, 228, 235, 0.642);
+}
+
+.green-img{
+    width: 100%;
+    /* border: 2px solid; */
+    margin-top: 20px;
+}
+.grn-img{
+    width: 100%;
+}
+.container-4{
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 70px;
+    padding-top: 10px;
+    background-color: white;
+}
+.nav-2{
+    display: flex;
+}
+.h5-4{
+    font-size: 20px;
+}
+.new-4{
+    margin-left: 30px;
+}
+.pop{
+    margin-left: 30px;
+}
+
+.big-cont4{
+    /* border: 2px solid red; */
+    display: flex;
+    /* background-color: white; */
+    gap: 15px;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 25px;
+}
+.ship-2{
+    color:green;
+    padding: 5px;    
+    border: none;
+}
+.gift-2{
+    color:red;  
+    border: none;
+    padding: 5px;
+}
+.none{
+    font-size: 10px;
+    color: gray;
+    margin-left: 60px;
+}
+.prod-txt{
+    font-size:13px;
+    font-weight: 500;
+}
+.dors-ship{
+    border: none;
+    padding: 4px;
+    line-height: 20px;
+}
+.small-set{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.container-5{
+    background-color: white;
+    padding-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 5%;
+    margin-bottom: 20px;
+}
+.speaker{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    padding-left:0px;
+}
+.gadget{
+    width: 100%;
+    border-radius: 10px;
+}
+.gad{
+    width: 90%;
+    border-radius: 10px;
+}
+.speak-txt{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.shop-now{
+    color: green;
+    width: 50%;
+    padding: 6px;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
 }
