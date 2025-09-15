@@ -1,0 +1,734 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #E2E4EB;
+}
+.container{
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+.shop{
+    background-color: #fff;
+    /* border: 2px solid; */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.Cell li{
+    display: inline;
+    padding-right: 5px;
+    list-style: none;
+    color: #bfc4d5;
+}
+.Cell li a{
+    color: #bfc4d5;
+    text-decoration: none;
+    font-weight: 500;
+}
+.Cell li a:hover{
+    color: #000;
+    font-weight: 700;
+}
+.top{
+    /* border: 2px solid; */
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.top h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.headphone{
+    width: 100%;
+    display: flex;
+}
+.noise{
+    background-image: url("/Fawaz/slider3.png.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    padding: 30px;
+    width: 60%;
+    margin-right: 10px;
+}
+.noise h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+}
+.noise h4{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+}
+.noise p{
+    color: #fff;
+    font-size: 10px;
+    width: 40%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.noise button{
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.noise button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.three{
+    display: flex;
+    justify-content: end;
+}
+.three button{
+    padding: 5px;
+    width: 20%;
+    letter-spacing: 10px;
+    border-radius: 20px;
+}
+.redmi{
+    background-image: url("/Fawaz/div.img.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    width: 40%;
+}
+.note h5{
+    width: 70%;
+    font-size: 30px;
+    font-weight: 400;
+}
+.note p{
+    color: #676769;
+    font-weight: 300;
+    font-size: 15px;
+}
+.note button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.note button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.Popular{
+    /* border: 2px solid; */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.Popular h1{
+    font-size: 20px;
+}
+.tab{
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.tab p{
+    font-size: 12px;
+    color: #aaadb5;
+}
+.sell{
+    /* border: 2px solid; */
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.best{
+    /* border: 2px solid; */
+    display: flex;
+    width: 100%;
+}
+.all{
+    /* border: 2px solid; */
+    padding: 20px;
+    width: 100%;
+}
+.this{
+    border-bottom: 1px solid #bfc4d5;
+}
+.oppo{
+    width: 40%;
+    background-color: #E2E4EB;
+    border-radius: 10px;
+}
+.oppo h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.oppo button{
+    padding: 5px;
+    width: 50%;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.oppo button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.oppo h4{
+    font-size: 15px;
+}
+.oppo li{
+    list-style: none;
+}
+.oppo li a{
+    color: #000;
+    text-decoration: none;
+    line-height: 10px;
+}
+.series{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.series h4{
+    width: 60%;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.two{
+    /* border: 2px solid; */
+    width: 30%;
+}
+.series h5{
+    color: red;
+    margin-bottom: 5px;
+}
+.series h6{
+    color: #aaadb5;
+}
+.nine{
+    color: #aaadb5;
+    text-decoration: line-through;
+}
+.free button{
+    color: #1ABA1A;
+    background-color: #D8F4D8;
+    border: none;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.free button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.stock button{
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: #f4f4f4;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.stock button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.save button{
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 8px;
+    text-align: left;
+    background-color: #1ABA1A;
+    color: #fff;
+}
+.set{
+    /* border: 2px solid; */
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+}
+.lte{
+    /* border: 2px solid; */
+    padding: 20px;
+    width: 100%;
+}
+.vato{
+    width: 40%;
+    background-color: #E2E4EB;
+    border-radius: 10px;
+}
+.inch{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.inch h4{
+    font-weight: 400;
+}
+.min{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+.min button{
+    background-color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.min button:hover{  
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+}
+.red button{
+    background-color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    padding-right: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.red button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.envato h4{
+    margin-top: 10px;
+}
+.envato button{
+    padding: 15px;
+    padding-right: 200px;
+    background-color: #fff;
+    border: 1px solid #aaadb5;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.canyan{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #aaadb5;
+}
+.show{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+.price{
+    margin-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #aaadb5;
+}
+.price h3{
+    margin-bottom: 20px;
+}
+.double-range {
+  position: relative;
+  width: 300px;
+  height: 30px;
+}
+.range-slider {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 5px;
+  border-radius: 10px;
+  -webkit-appearance: none;
+  background: #1ABA1A;
+  pointer-events: none; /* Allow only the thumbs to be interacted with */
+}
+.range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #1ABA1A;
+  border-radius: 50%;
+  /* border: 2px solid white; */
+  box-shadow: 0 0 2px rgba(0,0,0,0.3);
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.range-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #2196F3;
+  border-radius: 50%;
+  border: 2px solid white;
+  cursor: pointer;
+  pointer-events: auto;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+}
+.one button{
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    padding-right: 60px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.one button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.goo button{
+    background-color: #1ABA1A;
+    color: #fff;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.rating{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #aaadb5;
+}
+.rating h3{
+    margin-bottom: 10px;
+}
+.rate{
+    gap: 100px;
+}
+.rate p{
+    color: #676769;
+    font-size: 12px;
+}
+.size{
+    margin-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #aaadb5;
+}
+.size h3{
+    margin-bottom: 10px;
+}
+.under button{
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.under button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.color{
+    margin-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #aaadb5;
+}
+.color h3{
+    margin-bottom: 10px;
+}
+.bot button{
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+.wine{
+    background-color: #A42A2A;
+}
+.blue{
+    background-color: #2F557B;
+}
+.light{
+    background-color: #439ABB;
+}
+.black{
+    background-color: #000;
+}
+.white{
+    background-color: #fff;
+}
+.green{
+    background-color: #1ABA1A;
+}
+.grey{
+    background-color: #696969;
+}
+.pop{
+    background-color: #534898;
+}
+.memmory{
+    margin-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #aaadb5;
+}
+.memmory h3{
+    margin-bottom: 10px;
+}
+.bye{
+    display: flex;
+    gap: 90px;
+}
+.six{
+    gap: 10px;
+}
+.six p{
+    font-size: 12px;
+}
+.four{
+    color: #676769;
+    font-size: 12px;
+}
+.condition{
+    margin-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #aaadb5;
+}
+.condition h3{
+    margin-bottom: 10px;
+}
+.code{
+    width: 100%;
+    padding: 0;
+}
+.result{
+    /* border: 2px solid; */
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.showed, .veiwed{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.showed, .veiwed h6{
+    color: #696969;
+}
+.showed button{
+    background-color: #E2E4EB;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.veiwed select{
+    background-color: #E2E4EB;
+    border: none;
+    padding: 5px;
+    padding-right: 50px;
+    border-radius: 5px;
+}
+select:focus{
+    outline: 0;
+}
+.fourty h6{
+    color: #696969;
+    font-weight: 400;
+}
+.oned{
+    color: #000;
+    font-weight: 800;
+}
+.new{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.smaart h4{
+    width: 100%;
+}
+.pod{
+    /* display: flex; */
+    justify-content: center;
+    margin-left: 100px;
+    /* align-items: center; */
+}
+.pod h4{
+    width: 60%;
+    font-size: 10px;
+    text-align: left;
+}
+.huh h4{
+    width: 100%;
+    margin-right: 100px;
+}
+.apod h4{
+    width: 100%;
+}
+.noted{
+    margin-left: 50px;
+}
+.noted h4{
+    width: 70%;
+}
+.wifi h4{
+    width: 80%;
+}
+.twet{
+    margin-left: 100px;
+}
+.twet h4{
+    width: 80%;
+}
+.camera{
+    /* border: 2px solid red; */
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: -60px;
+    display: flex;
+    width: 100%;
+}
+.less{
+    width: 100%;
+    /* border: 2px solid; */
+}
+.wireess{
+    width: 50%;
+}
+.wireess img{
+    height: 50vh;
+    width: 86%;
+    margin-left: 10px;
+    margin-top: -150px;
+}
+
+
+/* Tablet landscape and below */
+@media (max-width: 1024px) {
+  .container { padding: 16px; }
+
+  .headphone { flex-direction: column; gap: 12px; }
+  .noise, .redmi { width: 100%; margin-right: 0; background-size: cover; }
+  .noise p { width: 60%; }
+  .three button { width: auto; letter-spacing: 6px; }
+
+  .tab { flex-wrap: wrap; gap: 10px; }
+
+  .best { flex-direction: column; }
+  .oppo, .this { width: 100%; }
+
+  .set { flex-direction: column; }
+  .vato, .code { width: 100%; }
+
+  .series { flex-wrap: wrap; gap: 12px; }
+  .series .charge { flex: 1 1 calc(50% - 12px); }
+
+  .wireess img { margin-top: -60px; width: 100%; margin-left: 0; height: auto; }
+}
+
+/* Tablet portrait and large phones */
+@media (max-width: 768px) {
+  .container { padding: 12px; }
+  .top h1 { font-size: 18px; }
+
+  .noise h3 { font-size: 24px; }
+  .noise h4 { font-size: 20px; }
+  .noise p { width: 100%; font-size: 12px; margin-left: 0; }
+  .three { justify-content: center; }
+  .three button { width: auto; letter-spacing: 4px; }
+
+  .tab { gap: 12px; }
+  .tab .android { width: 48%; text-align: center; }
+  .tab .android img { max-width: 60px; height: auto; }
+
+  .oppo button { width: 100%; justify-content: center; }
+
+  .double-range { width: 100%; }
+  .min button, .red button, .envato button { width: 100%; padding-right: 10px; text-align: left; }
+  .one { gap: 8px; }
+  .one button { padding-right: 10px; }
+
+  .rating .rate { gap: 20px; }
+
+  .result { flex-wrap: wrap; gap: 8px; align-items: flex-start; }
+  .showed, .veiwed { width: 100%; justify-content: space-between; }
+  .veiwed select, .showed button { width: 50%; }
+
+  .series { gap: 10px; }
+  .series .charge { flex: 1 1 calc(50% - 10px); }
+
+  .bye { flex-direction: column; gap: 10px; }
+
+  .camera { flex-direction: column; }
+  .wireess, .less { width: 100%; }
+  .wireess img { width: 100%; height: auto; margin: 0; }
+
+  .pod, .twet, .noted { margin-left: 0; }
+  .huh { margin-right: 0; }
+  .pod h4, .twet h4, .wifi h4, .noted h4, .huh h4 { width: 100%; }
+
+  .bot button { margin-right: 10px; }
+}
+
+/* Small phones */
+@media (max-width: 576px) {
+  .container { padding: 10px; }
+  .top h1 { font-size: 16px; }
+
+  .noise { padding: 20px; }
+  .noise h3 { font-size: 22px; }
+  .noise h4 { font-size: 18px; }
+  .three button { letter-spacing: 2px; padding: 6px 12px; border-radius: 16px; }
+
+  .tab .android { width: 100%; }
+
+  .series .charge { flex: 1 1 100%; }
+
+  .save button { width: 60%; }
+
+  .show, .showed, .veiwed { gap: 6px; }
+  .veiwed select, .showed button { width: 100%; }
+
+  .oppo h3 { font-size: 18px; }
+  .oppo h4 { font-size: 14px; }
+
+  .note h5 { font-size: 22px; }
+  .note p { font-size: 13px; }
+
+  .double-range { height: 28px; }
+}
