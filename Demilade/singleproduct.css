@@ -374,6 +374,12 @@ body {
     display: flex;
     flex-direction: column;
 }
+.thirddiv .thirdsubdivii ul {
+    padding-left: 2rem;
+}
+.thirddiv .thirdsubdivii ul li {
+    list-style: square;
+}
 .fourthdiv {
     border: 2px solid black;
     background-color: white;
