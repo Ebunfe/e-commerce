@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+.head{
+    /* border: 2px solid; */
+}
+a{
+    text-decoration: none;
+    color: #bfc4b5;
+}
+a:hover{
+    color: black;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.list li{
+    display: block;
+    padding: 10px;
+}
+.list ul{
+    display: flex;
+}
+nav{
+    padding: 20px;
+}
+.experience{
+    background-image: url("/box.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 80px;
+}
+.win h1{
+    width: 30%;
+    padding-bottom: 30px;
+}
+.win p{
+    width: 34%;
+    color: #797e72;
+}
+.technology h3{
+    width: 50%;
+    margin: auto;
+}
+.through{
+    color: green;
+}
+.purpose{
+    display: flex;
+    /* border: 2px solid; */
+    padding: 50px 0 50px 0;
+}
+.revenue p{
+    width: 80%;
+    color: #797e72;
+}
+.orders p{
+    width: 70%;
+    color: #797e72;
+}
+.store p{
+    width: 70%;
+    color: #797e72;
+}
+.tech{
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}
+.connect{
+    /* border: 2px solid; */
+    border-radius: 15px;
+    padding: 50px;
+    background-color: #bfc4b5;
+}
+.connect h3{
+    width: 83%;
+    margin: auto;
+}
+.connect p{
+    margin-left: 20px;
+    padding: 30px;
+    width: 100%;
+    color: #797e72;
+}
+button{
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 0;
+    background-color: green;
+    color: #fff;
+}
+.product{
+    gap: 10px;
+    display: flex;
+    width: 100%;
+}
+.distribute{
+    /* border: 2px solid yellow; */
+    padding: 5px;
+    margin-right: 20px;
+    width: 80%;
+}
+.perserve{
+    display: flex;
+    /* background-color: red; */
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-bottom: 60px;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-bottom: 60px;
+}
+.third{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-bottom: 60px;
+}
+.first h2{
+    width: 70%;
+}
+.quality p{
+    width: 95%;
+    font-size: 14px;
+}
+.fast{
+    /* border: 2px solid red; */
+    padding: 10px;
+    width: 80%;
+}
+.ship p{
+    /* width: 20%; */
+    font-size: 14px;
+    width: 90%;
+}
+.offer p{
+    width: 100%;
+    font-size: 14px;
+}
+.affordable{
+    /* border: 2px solid yellow; */
+    width: 80%;
+    padding: 5px;
+}
+.first, .second{
+    display: flex;
+    gap: 10px;
+}
+.city img{
+    width: 100%;
+}
+.vision{
+    width: 100%;
+    padding: 10px;
+}
+.vision p{
+    font-size: 13px;
+    width: 95%;
+    padding: 10px;
+}
+.vision h3{
+    padding: 10px;
+}
+.viva{
+    font-weight: 900;
+}
+ol li{
+    list-style-type: none;
+    font-size: 13px;
+    width: 100%;
+    color: #3c3d3a;
+}
+strong{
+    color: black;
+}
+.two{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    padding-top: 20px;
+}
+.lorem{
+    width: 36rem;
+    /* color: blue; */
+}
+.variation{
+    /* border: 2px solid red; */
+    width: 36.7rem;
+}
+.suffered{
+    width: 40rem;
+}
+.generators{
+    width: 40rem;
+}
+.repetition{
+    width: 40rem;
+}
+.alternate{
+    width: 40rem;
+}
+.global{
+    padding: 20px;
+}
+li{
+    margin: 10px;
+}
+.chain p{
+    padding-top: 30px;
+}
+.leaders{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    padding-top: 10px;
+}
+.leaders p{
+    color: #797e72;
+}
+.leaders h2{
+    font-size: 20px;
+}
+.men{
+    display: flex;
+    gap: 5px;
+}
+.men p{
+    color: #797e72;
+}
+.men img{
+    padding-top: 30px;
+}                                       
