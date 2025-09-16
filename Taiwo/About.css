@@ -8,11 +8,11 @@ body{
     font-family: "Poppins", sans-serif;
 }
 .container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
 }
 .head{
-    border: 2px solid;
+    /* border: 2px solid; */
 }
 a{
     text-decoration: none;
@@ -57,7 +57,7 @@ nav{
 }
 .purpose{
     display: flex;
-    border: 2px solid;
+    /* border: 2px solid; */
     padding: 50px 0 50px 0;
 }
 .revenue p{
@@ -182,3 +182,69 @@ button{
 .viva{
     font-weight: 900;
 }
+ol li{
+    list-style-type: none;
+    font-size: 13px;
+    width: 100%;
+    color: #3c3d3a;
+}
+strong{
+    color: black;
+}
+.two{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    padding-top: 20px;
+}
+.lorem{
+    width: 36rem;
+    /* color: blue; */
+}
+.variation{
+    /* border: 2px solid red; */
+    width: 36.7rem;
+}
+.suffered{
+    width: 40rem;
+}
+.generators{
+    width: 40rem;
+}
+.repetition{
+    width: 40rem;
+}
+.alternate{
+    width: 40rem;
+}
+.global{
+    padding: 20px;
+}
+li{
+    margin: 10px;
+}
+.chain p{
+    padding-top: 30px;
+}
+.leaders{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    padding-top: 10px;
+}
+.leaders p{
+    color: #797e72;
+}
+.leaders h2{
+    font-size: 20px;
+}
+.men{
+    display: flex;
+    gap: 5px;
+}
+.men p{
+    color: #797e72;
+}
+.men img{
+    padding-top: 30px;
+}                                       
